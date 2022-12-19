@@ -1,21 +1,69 @@
 ﻿using dotnet.Models;
 
-int inteiro = 5;
-string a = inteiro.ToString();
-//int a = int.Parse("Sc");
 
-Console.WriteLine(a);
+int qtdEmEstoque = 4;
+int qtdCompra = 2;
+bool possivelVenda = qtdEmEstoque >= qtdCompra;
 
-
-
-
-
+Console.WriteLine($"Quantidade em estoque: {qtdEmEstoque}");
+Console.WriteLine($"Quantidade de compra: {qtdCompra}");
+Console.WriteLine($"É possivel realizar a compra? {possivelVenda}");
 
 
+if(qtdEmEstoque >= qtdCompra){
+    Console.WriteLine("Compra realizada com sucesso");
+}
+else{
+    Console.WriteLine("Desculpe, não temos quantidade o suficiente no estoque");
+}
 
 
 
 
+
+
+
+
+// string sim = "12";
+// int  s = Convert.ToInt32(sim);
+
+// Console.WriteLine(s);
+
+
+
+
+// // convertendo long para Int com ToInt32
+// long c = 5;
+// int d = Convert.ToInt32(c);
+
+
+// Console.WriteLine(d);
+
+// // conversão de tipo de variaveis
+// int a = 5;
+// double b = a;
+
+// Console.WriteLine(b);
+
+
+// //Convertendo de maneira segura
+// string e = "15-";
+// // int f = 0;
+
+// int.TryParse(e, out int f);
+
+// Console.WriteLine(f);
+// Console.WriteLine("Convertido com sucesso!");
+
+
+
+
+
+// int inteiro = 5;
+// string a = inteiro.ToString();
+// //int a = int.Parse("Sc");
+
+// Console.WriteLine(a);
 
 
 // int a = 24;
