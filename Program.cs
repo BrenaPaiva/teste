@@ -1,21 +1,83 @@
 ﻿using dotnet.Models;
 
-
-int qtdEmEstoque = 4;
-int qtdCompra = 2;
-bool possivelVenda = qtdEmEstoque >= qtdCompra;
-
-Console.WriteLine($"Quantidade em estoque: {qtdEmEstoque}");
-Console.WriteLine($"Quantidade de compra: {qtdCompra}");
-Console.WriteLine($"É possivel realizar a compra? {possivelVenda}");
+Console.WriteLine("Digite uma vogal");
+string letra = Console.ReadLine();
 
 
-if(qtdEmEstoque >= qtdCompra){
-    Console.WriteLine("Compra realizada com sucesso");
+
+switch(letra){
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+
+    Console.WriteLine("vogal");
+    break;
+    default: 
+    Console.WriteLine("não é uma vogal");
+    break;
 }
-else{
-    Console.WriteLine("Desculpe, não temos quantidade o suficiente no estoque");
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// if(letra == "a"||
+//     letra == "e"||
+//     letra == "i" ||
+//     letra == "o" ||
+//     letra == "u"){
+//         Console.WriteLine("é uma vogal");
+//     }else{
+//         Console.WriteLine("Não é uma vogal");
+//     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int qtdEmEstoque = 4;
+// int qtdCompra = 0;
+// bool possivelVenda = qtdCompra > 0 && qtdEmEstoque >= qtdCompra;
+
+// Console.WriteLine($"Quantidade em estoque: {qtdEmEstoque}");
+// Console.WriteLine($"Quantidade de compra: {qtdCompra}");
+// Console.WriteLine($"É possivel realizar a compra? {possivelVenda}");
+
+// if(qtdCompra == 0){
+//     Console.WriteLine("Compra inválida");
+// }else 
+// if(qtdEmEstoque >= qtdCompra){
+//     Console.WriteLine("Compra realizada com sucesso");
+// }
+// else{
+//     Console.WriteLine("Desculpe, não temos quantidade o suficiente no estoque");
+// }
 
 
 
