@@ -79,7 +79,7 @@ int f = 0;
 
 ```
 # Call
-*Chamando em outra rota
+* Chamando em outra rota
 ```cs
 Calculadora calc = new Calculadora();
 
@@ -93,3 +93,5 @@ calc.Coseno(30);
 calc.Tangente(30);
 calc.RaizQuadrada(9);
 ```
+
+# Debugando o FOR
