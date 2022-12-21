@@ -94,4 +94,7 @@ calc.Tangente(30);
 calc.RaizQuadrada(9);
 ```
 
-# Debugando o FOR
+### Operador matemático 
+* Math: Contém várias outras propriedades, como fórmulas matemáticas
+* ToInt32: Converte strings em números
+* ToString: Converte números em strings
