@@ -1,23 +1,108 @@
 ﻿using dotnet.Models;
 
-Console.WriteLine("Digite uma vogal");
-string letra = Console.ReadLine();
+
+Calculadora calc = new Calculadora();
+
+// calc.Somar(10, 30);
+// calc.Subtrair(10, 50);
+// calc.Dividir(24, 2);
+// calc.Multiplicacao(2, 25);
+// calc.Potencia(3, 3);
+
+// calc.Seno(30);
+// calc.Coseno(30);
+// calc.Tangente(30);
+
+// 
+calc.RaizQuadrada(9);
 
 
 
-switch(letra){
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
 
-    Console.WriteLine("vogal");
-    break;
-    default: 
-    Console.WriteLine("não é uma vogal");
-    break;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// bool choveu = false;
+// bool staTarde = false;
+
+
+// if(!choveu && !staTarde ){
+//     Console.WriteLine("vou pedelar");
+// }else{
+// Console.WriteLine("vou pedalar outro dia");
+// }
+
+
+
+
+
+
+
+
+
+
+// bool ehMaiorIdade = false;
+// bool autorizacaoResponsavel = false;
+
+// if(ehMaiorIdade || autorizacaoResponsavel){
+//     Console.WriteLine("Entrada liberada");
+// }else{
+//     Console.WriteLine("Entrada não liberada");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Console.WriteLine("Digite uma vogal");
+// string letra = Console.ReadLine();
+
+
+// switch(letra){
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+
+//     Console.WriteLine("vogal");
+//     break;
+//     default: 
+//     Console.WriteLine("não é uma vogal");
+//     break;
+// }
 
 
 
@@ -103,9 +188,9 @@ switch(letra){
 
 // // conversão de tipo de variaveis
 // int a = 5;
-// double b = a;
+// // double b = a;
 
-// Console.WriteLine(b);
+// // Console.WriteLine(b);
 
 
 // //Convertendo de maneira segura
