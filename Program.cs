@@ -1,27 +1,40 @@
 ﻿using dotnet.Models;
 
+int soma = 0, numero = 0;
 
-int numero = 2;
-int contador = 1;
-
-while(contador <= 2)
+do
 {
-    Console.WriteLine($"{contador}° Execução: {numero} x {contador} = {contador / numero}");
-    contador++;
+Console.WriteLine("Digite um número (aperte zero para parar)");
+
+
+soma += numero;
+}while(numero != 0);
+
+Console.WriteLine($"A soma do valor digitado é: {soma}");
+
+
+
+
+
+
+
+
+
+
+
+// int numero = 5;
+// int contador = 1;
+
+// while(contador <= 10)
+// {
+//     Console.WriteLine($"{contador + 1}° Execução: {numero} x {contador} = {contador / numero}");
+//      contador++;
     
-}
+//     if(contador == 5){
+//         break;
+//     }
 
-
-
-
-
-
-
-
-
-
-
-
+// }
 
 
 
@@ -35,27 +48,21 @@ while(contador <= 2)
 //     Console.WriteLine($"{numero} x {contador} = {numero * contador}");
 
 
-// }
 
 
 
 
-Calculadora calc = new Calculadora();
+// Calculadora calc = new Calculadora();
 
-calc.Somar(10, 30);
-calc.Subtrair(10, 50);
-calc.Dividir(24, 2);
-calc.Multiplicacao(2, 25);
-calc.Potencia(3, 3);
-calc.Seno(30);
-calc.Coseno(30);
-calc.Tangente(30);
-calc.RaizQuadrada(9);
-
-
-
-
-
+// calc.Somar(10, 30);
+// calc.Subtrair(10, 50);
+// calc.Dividir(24, 2);
+// calc.Multiplicacao(2, 25);
+// calc.Potencia(3, 3);
+// calc.Seno(30);
+// calc.Coseno(30);
+// calc.Tangente(30);
+// calc.RaizQuadrada(9);
 
 
 
@@ -73,7 +80,7 @@ calc.RaizQuadrada(9);
 
 
 // bool choveu = false;
-// bool staTarde = false;
+// bool staTarde = true;
 
 
 // if(!choveu && !staTarde ){
@@ -182,8 +189,8 @@ calc.RaizQuadrada(9);
 
 
 
-// int qtdEmEstoque = 4;
-// int qtdCompra = 0;
+// int qtdEmEstoque = 1;
+// int qtdCompra = 4;
 // bool possivelVenda = qtdCompra > 0 && qtdEmEstoque >= qtdCompra;
 
 // Console.WriteLine($"Quantidade em estoque: {qtdEmEstoque}");
