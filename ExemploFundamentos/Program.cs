@@ -1,4 +1,9 @@
-﻿using dotnet.Models;
+﻿using ExemploFundamentos.Common.Models;
+
+Pessoa pessoa1 = new Pessoa();
+pessoa1.Nome = "Brena";
+pessoa1.Idade = 22;
+pessoa1.Apresentar();
 
 
 
