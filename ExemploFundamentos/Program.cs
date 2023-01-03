@@ -1,48 +1,50 @@
 ﻿using dotnet.Models;
 
 
-string opcao;
-bool exibirMenu = true;
 
 
-while (exibirMenu)
-{
-    // Console.Clear();
-    Console.WriteLine("Digite a sua opção: ");
-    Console.WriteLine("1-Cadastrar cliente ");
-    Console.WriteLine("2-Buscar cliente ");
-    Console.WriteLine("3-Apagar cliente ");
-    Console.WriteLine("4-Encerrar ");
+// string opcao;
+// bool exibirMenu = true;
 
-    opcao = Console.ReadLine();
 
-    switch(opcao){
-        case "1":
-            Console.WriteLine("Cadastro do Cliente.");
-            break;
+// while (exibirMenu)
+// {
+//     // Console.Clear();
+//     Console.WriteLine("Digite a sua opção: ");
+//     Console.WriteLine("1-Cadastrar cliente ");
+//     Console.WriteLine("2-Buscar cliente ");
+//     Console.WriteLine("3-Apagar cliente ");
+//     Console.WriteLine("4-Encerrar ");
 
-        case "2":
-        Console.WriteLine("Busca do cliente.");
-            break;    
+//     opcao = Console.ReadLine();
+
+//     switch(opcao){
+//         case "1":
+//             Console.WriteLine("Cadastro do Cliente.");
+//             break;
+
+//         case "2":
+//         Console.WriteLine("Busca do cliente.");
+//             break;    
             
-        case "3":
-        Console.WriteLine("Apaga cliente.");
-            break;
+//         case "3":
+//         Console.WriteLine("Apaga cliente.");
+//             break;
             
-        case "4":
-        Console.WriteLine("Encerrar");
-        // Environment.Exit(0);
-        exibirMenu = false;
-            break;
+//         case "4":
+//         Console.WriteLine("Encerrar");
+//         // Environment.Exit(0);
+//         exibirMenu = false;
+//             break;
 
-        default:
-            Console.WriteLine("Opção inválida.");
-            break;
+//         default:
+//             Console.WriteLine("Opção inválida.");
+//             break;
     
-    }
-}
-    // Refatorando meu código com o valor booleano exibirMenu para que este seja executado
-    Console.WriteLine("O programa se encerrou");
+//     }
+// }
+//     // Refatorando meu código com o valor booleano exibirMenu para que este seja executado
+//     Console.WriteLine("O programa se encerrou");
 
 
 
